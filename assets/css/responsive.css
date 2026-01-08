@@ -251,12 +251,14 @@ scrollbar-width: none;  /* Firefox */
         flex-direction: column;
         color: white;
         font-variant: small-caps;
-        margin-top: 3rem;
+        margin-top: 1rem;
     }
     .skill i{
         font-size: 14pt;
     }
     .skill svg{height: 14pt}
+    
+    .skill img{height: 20px;}
 }
 /* SM BREAKPOINT */
 @media only screen and (min-width: 576px){	
@@ -404,6 +406,8 @@ scrollbar-width: none;  /* Firefox */
         font-size: 14pt;
     }
     .skill svg{height: 14pt}
+    
+    
 }
 /* MD BREAKPOINT */
 @media screen and (min-width: 768px) {
