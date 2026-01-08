@@ -238,6 +238,12 @@ scrollbar-width: none;  /* Firefox */
     .xs-p-5 {padding: 3rem!important;}
 
     #waves, #waves2{height: 100px;}
+    .certifications-container a{
+        flex-grow: 1;
+    }
+    .certification-details {
+        flex-grow: 1;
+    }
     .skill{
         height: 100px;
         border-radius: 5px 5px 0 0;
@@ -387,6 +393,9 @@ scrollbar-width: none;  /* Firefox */
     .sm-p-5 {padding: 3rem!important;}
 
     #waves, #waves2{height: 100px;}
+    .certification-details {
+        flex-grow: 1;
+    }
     .skill{
         height: 100px;
         border-radius: 5px 5px 0 0;
