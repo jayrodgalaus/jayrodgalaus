@@ -1,0 +1,59 @@
+# Tests
+
+## Test 1 - Portfolio loads with redesigned hero [sanity]
+Viewport: desktop
+Description: Verifies the redesigned portfolio loads with the new hero and primary CTA.
+
+Steps:
+1. Navigate to the app
+2. Wait for the page to fully load
+3. Click "View Projects"
+
+Expected: The hero headline "Practical systems for messy business workflows." is visible and the Projects section is reachable.
+
+## Test 2 - New internal tool projects appear and expand
+Viewport: desktop
+Description: Verifies Amazing Stories and Mailing Assistant were added as sanitized project cards.
+
+Steps:
+1. Navigate to the app
+2. Go to the Projects section
+3. Click the "Amazing Stories" project card
+4. Click the "Mailing Assistant" project card
+
+Expected: Amazing Stories shows Power Apps Canvas, Power BI, Azure, Microsoft Graph APIs, SharePoint APIs, and OpenAI integration details; Mailing Assistant shows Python, Flask, follow-up automation, and ticket-state tracking details.
+
+## Test 3 - Skills include expanded cloud, API, and automation stack
+Viewport: desktop
+Description: Verifies the toolkit includes the new project-related skills.
+
+Steps:
+1. Navigate to the app
+2. Go to the Skills section
+3. Review the visible skill groups
+
+Expected: Skills include Python, Flask, Azure, Microsoft Graph APIs, SharePoint APIs, OpenAI Integration, Power BI, and Ticket-State Logic. LVJR Toolkit is shown as a project, not a skill group.
+
+## Test 4 - LVJR Toolkit appears as a project
+Viewport: desktop
+Description: Verifies LVJR Toolkit is shown as a project card while LVJR is still not listed as formal work history.
+
+Steps:
+1. Navigate to the app
+2. Go to the Projects section
+3. Click the "LVJR Toolkit" project card
+4. Go to the Experience section
+5. Review the listed organizations
+
+Expected: The LVJR Toolkit project expands and shows QR generator, image utilities, PDF utilities, internal tools, admin workflows, and AI-assisted build details. DXC, DOST CAR, and Grin-I-Tech are shown in Experience, and LVJR is not listed as a work-history organization.
+
+## Test 5 - Mobile navigation opens and closes
+Viewport: mobile
+Description: Verifies the responsive navigation works on a narrow viewport.
+
+Steps:
+1. Navigate to the app on mobile
+2. Tap "Menu"
+3. Tap "Skills"
+
+Expected: The navigation opens, the Skills section is reachable, and the menu closes after selecting the link.
