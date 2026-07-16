@@ -176,7 +176,7 @@ export const portfolioData: PortfolioData = {
     },
   ],
   contact: {
-    email: 'jayrodgalaus@jagalau.online',
+    email: 'jsgalaus@gmail.com',
     linkedIn: 'https://www.linkedin.com/in/jayrod-galaus',
     github: 'https://github.com/jayrodgalaus',
   },
